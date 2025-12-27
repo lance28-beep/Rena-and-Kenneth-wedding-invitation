@@ -63,7 +63,7 @@ const timelineEvents: TimelineEvent[] = [
     description: `A warm send-off for ${brideNickname} & ${groomNickname} as they begin their new chapter together.`,
     location: receptionVenue,
     icon: CarIcon,
-    imageSrc: "/weddingtimeline/Send-off.png",
+    imageSrc: "/weddingtimeline/Send-off-img.png",
   },
 ]
 
