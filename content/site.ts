@@ -1,14 +1,14 @@
 export const siteConfig = {
   couple: {
-    bride: "Catherine Rivera",
-    brideNickname: "Catherine",
-    groom: "Mark Niño Cabral",
-    groomNickname: "Mark",
+    bride: "Rena Suela",
+    brideNickname: "Rena",
+    groom: "Kenneth Hermidilla",
+    groomNickname: "Kenneth",
   },
   wedding: {
-    date: "January 11, 2026",
+    date: "January 08, 2026",
     time: "3:00 PM",
-    venue: "Lorenzo Farm and Resort and Events Place / Balai Alexandria Events Place",
+    venue: "Rhose Garden Resort and Events Place",
     tagline: "are getting married!",
     theme: "Purple & Sage Motif",
     motif: "#6A4F82, #B9AACB, #A8AF8D, #F4F4F4, #5B6B3C",
@@ -19,18 +19,18 @@ export const siteConfig = {
     },
   },
   ceremony: {
-    location: "Lorenzo Farm and Resort and Events Place, Brgy Dampulan Jaen Nueva Ecija",
-    venue: "Lorenzo Farm and Resort and Events Place",
-    date: "January 11, 2026",
-    day: "Sunday",
+    location: "Rhose Garden Resort and Events Place, Parang Road., Paradise Drive, Brgy. Tungkong Mangga, San Jose Del Monte, Philippines",
+    venue: "Rhose Garden Resort and Events Place",
+    date: "January 08, 2026",
+    day: "Thursday",
     time: "3:00 PM",
     entourageTime: "2:30 PM",
     guestsTime: "2:30 PM",
   },
   reception: {
-    location: "Balai Alexandria Events Place, Brgy Dampulan Jaen Nueva Ecija",
-    venue: "Balai Alexandria Events Place",
-    date: "January 11, 2026",
+    location: "Rhose Garden Resort and Events Place, Parang Road., Paradise Drive, Brgy. Tungkong Mangga, San Jose Del Monte, Philippines",
+    venue: "Rhose Garden Resort and Events Place",
+    date: "January 08, 2026",
     time: "Reception to follow",
   },
   dressCode: {
@@ -38,7 +38,7 @@ export const siteConfig = {
     colors: ["#6A4F82", "#B9AACB", "#A8AF8D", "#F4F4F4", "#5B6B3C"],
     sponsors: {
       male: "Barong, Black Pants and Leather Shoes",
-      female: "Purple/Lavender/Sage Long Gown"
+      female: "Pink/Rose/Blush Long Gown"
     },
     guests: {
       gents: "Polo & Pants (Strictly no Tshirt)",
@@ -47,24 +47,53 @@ export const siteConfig = {
     note: "We kindly request our guests to dress in formal attire with a color of our motif."
   },
   narratives: {
-    groom: `The first time Mark saw Catherine, time seemed to slow down. It was an ordinary day that instantly became unforgettable: one smile, one hello, and suddenly his world had a new center. He didn't have the perfect words ready, but he knew he had met someone who felt like home.
+    shared: `Every great love story begins with a moment — and theirs started with a simple Facebook message.
 
-Early conversations turned into late-night talks, sharing dreams, favorite meals, and whispered prayers for a future together. With every small adventure—coffee runs, long drives, quiet walks—Mark found himself choosing her over and over again. He loved how she laughed freely, how she listened with her whole heart, and how her faith steadied him.
+"Magandang gabi sa isang magandang dilag."
 
-There were seasons of distance and long workdays, but every reunion reminded him why he stayed patient: because Catherine was worth every mile and every minute apart. When he finally knelt to ask for her hand, it wasn't a question of "if," only "when can we start forever?"`,
-    bride: `Catherine remembers the first time Mark said her name. It was gentle but sure, a kindness that made her feel both seen and safe. In that softness, she found a partner who met her with the same grace she prayed to give.
+Those were the first words Kenneth sent Rena. Just one line, yet enough to spark a connection neither of them expected.
 
-Mark's steadiness won her heart: the way he showed up, even when schedules were tight, and how he always found lightness in the small things. He celebrated her wins, held space for her worries, and never hesitated to choose "us" in every decision.
+From that night on, messages blossomed into deep conversations, and soon, distance became nothing. From Batangas to North Caloocan, Kenneth traveled back and forth — to court her, to know her, to show her she was worth every mile, every hour, every effort.
 
-Now, as they prepare to say yes before God and the people they love most, Catherine is grateful for the patience, humor, and hope Mark brings to every day. She knows this next chapter is just the start of the love story they get to write together.`,
+Years filled with laughter, stories, and travels- their love grew stronger with time. With a heart full of certainty, Kenneth knelt and asked Rena to be his forever. She said yes, sealing a promise of a lifetime.
+
+Now, they stand on the brink of their most beautiful chapter yet.
+
+On January 8, 2026, they will say "I do."`,
+    groom: `Every great love story begins with a moment — and theirs started with a simple Facebook message.
+
+"Magandang gabi sa isang magandang dilag."
+
+Those were the first words Kenneth sent Rena. Just one line, yet enough to spark a connection neither of them expected.
+
+From that night on, messages blossomed into deep conversations, and soon, distance became nothing. From Batangas to North Caloocan, Kenneth traveled back and forth — to court her, to know her, to show her she was worth every mile, every hour, every effort.
+
+Years filled with laughter, stories, and travels- their love grew stronger with time. With a heart full of certainty, Kenneth knelt and asked Rena to be his forever. She said yes, sealing a promise of a lifetime.
+
+Now, they stand on the brink of their most beautiful chapter yet.
+
+On January 8, 2026, they will say "I do."`,
+    bride: `Every great love story begins with a moment — and theirs started with a simple Facebook message.
+
+"Magandang gabi sa isang magandang dilag."
+
+Those were the first words Kenneth sent Rena. Just one line, yet enough to spark a connection neither of them expected.
+
+From that night on, messages blossomed into deep conversations, and soon, distance became nothing. From Batangas to North Caloocan, Kenneth traveled back and forth — to court her, to know her, to show her she was worth every mile, every hour, every effort.
+
+Years filled with laughter, stories, and travels- their love grew stronger with time. With a heart full of certainty, Kenneth knelt and asked Rena to be his forever. She said yes, sealing a promise of a lifetime.
+
+Now, they stand on the brink of their most beautiful chapter yet.
+
+On January 8, 2026, they will say "I do."`,
   },
   colors: {
     primary: "#6A4F82",
     secondary: "#B9AACB",
   },
   snapShare: {
-    googleDriveLink: "https://drive.google.com/drive/folders/1gFI7Q-1J85w2gwOQ-Ugkakeei2poqBM8?usp=sharing",
-    hashtag: "#CatherineAndMark2026",
+    googleDriveLink: "https://drive.google.com/drive/folders/1Ti5GsVwvrv43TCJLHpVRtUs8_JQKF07_?usp=sharing",
+    hashtag: "#KennethAndRena2026",
     instructions: "Please scan this QR Code, create a folder with your name and upload the photos and videos you have taken during our wedding reception. We are delighted to see your snaps too!",
   },
 }

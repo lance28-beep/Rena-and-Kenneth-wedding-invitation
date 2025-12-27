@@ -22,6 +22,7 @@ import { Navbar } from "@/components/navbar"
 import { AppState } from "@/components/types"
 import BackgroundMusic from "@/components/background-music"
 import { SnapShare } from "@/components/sections/snap-share"
+import { Narrative } from "@/components/sections/narrative"
 
 const Silk = dynamic(() => import("@/components/silk"), { ssr: false })
 const GuestList = dynamic(() => import("@/components/sections/guest-list").then(mod => ({ default: mod.GuestList })), { ssr: false })
@@ -41,7 +42,7 @@ export default function Home() {
 
   return (
     <AudioProvider>
-      <div className="relative min-h-screen bg-cloud text-charcoal selection:bg-birch selection:text-nut overflow-hidden font-sans">
+      <div className="relative min-h-screen bg-background text-foreground overflow-hidden font-sans">
         {appState === AppState.LOADING && <LoadingScreen onComplete={handleLoadingComplete} />}
 
         <main className="relative w-full h-full">
@@ -52,7 +53,7 @@ export default function Home() {
             {enableDecor && (
               <div className="fixed inset-0 z-0 pointer-events-none">
                 <Suspense fallback={<div className="w-full h-full bg-gradient-to-b from-primary/10 to-secondary/5" />}>
-                  <Silk speed={5} scale={1.1} color="#5B6B3C" noiseIntensity={0.8} rotation={0.3} />
+                  <Silk speed={5} scale={1.1} color="#BC677C" noiseIntensity={0.8} rotation={0.3} />
                 </Suspense>
               </div>
             )}
@@ -63,6 +64,7 @@ export default function Home() {
               <Welcome />
               {/* <CoupleVideo /> */}
               <Countdown />
+              <Narrative />
               <Gallery />
               <Messages />
               <Details />

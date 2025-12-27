@@ -160,7 +160,7 @@ export function Entourage() {
         className={`relative flex flex-col ${containerAlign} justify-center py-1 sm:py-1.5 md:py-2 leading-snug sm:leading-relaxed group/item transition-all duration-300 hover:scale-[1.02] sm:hover:scale-[1.03]`}
       >
         {/* Hover highlight effect */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#B9AACB]/35 to-transparent opacity-0 group-hover/item:opacity-100 transition-opacity duration-300 rounded-md" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#EBC1CB]/35 to-transparent opacity-0 group-hover/item:opacity-100 transition-opacity duration-300 rounded-md" />
 
         <p
           className={`relative text-[#243127] text-[11px] sm:text-[13px] md:text-sm lg:text-base font-semibold ${textAlign} group-hover/item:text-[#1A231C] transition-all duration-300`}
@@ -224,17 +224,17 @@ export function Entourage() {
     <section
       ref={sectionRef}
       id="entourage"
-      className="relative py-12 md:py-16 lg:py-20 overflow-hidden bg-[#6A4F82]"
+      className="relative py-12 md:py-16 lg:py-20 overflow-hidden bg-[#BC677C]"
     >
-      {/* Background elements matching the purple & lilac motif */}
+      {/* Background elements matching the pink motif */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Vertical purple gradients to frame the entourage */}
-        <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-[#6A4F82]/92 via-[#B9AACB]/78 to-transparent" />
-        <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#6A4F82]/95 via-[#B9AACB]/72 to-transparent" />
-        {/* Soft radial light in purple tones */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(185,170,203,0.28),transparent_55%)] opacity-90" />
-        {/* Subtle diagonal wash of muted purple */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#6A4F82]/24 via-transparent to-[#B9AACB]/12 mix-blend-soft-light" />
+        {/* Vertical pink gradients to frame the entourage */}
+        <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-[#BC677C]/92 via-[#E2AAAD]/78 to-transparent" />
+        <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#BC677C]/95 via-[#EBC1CB]/72 to-transparent" />
+        {/* Soft radial light in pink tones */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(235,193,203,0.28),transparent_55%)] opacity-90" />
+        {/* Subtle diagonal wash of muted pink */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#BC677C]/24 via-transparent to-[#EBC1CB]/12 mix-blend-soft-light" />
       </div>
 
       {/* Section Header */}
@@ -268,8 +268,8 @@ export function Entourage() {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
-        {/* Card with purple & lilac theme */}
-        <div className="relative bg-[#F4F4F4]/95 backdrop-blur-md rounded-xl sm:rounded-2xl overflow-hidden border border-[#B9AACB]/80 shadow-[0_20px_60px_rgba(106,79,130,0.45)] transition-all duration-500 group">
+        {/* Card with pink theme */}
+        <div className="relative bg-[#FAEAEA]/95 backdrop-blur-md rounded-xl sm:rounded-2xl overflow-hidden border border-[#EBC1CB]/80 shadow-[0_20px_60px_rgba(188,103,124,0.45)] transition-all duration-500 group">
           {/* Card content */}
           <div className="relative p-3 sm:p-6 md:p-8 z-10">
             {isLoading ? (
@@ -559,9 +559,9 @@ export function Entourage() {
                     {categoryIndex > 0 && (
                       <div className="flex justify-center py-3 sm:py-4 md:py-5 mb-5 sm:mb-6 md:mb-8">
                         <div className="flex items-center gap-2 w-full max-w-md">
-                          <div className="h-[1.5px] flex-1 bg-gradient-to-r from-transparent via-[#B9AACB]/50 to-[#B9AACB]"></div>
-                          <div className="w-1.5 h-1.5 bg-[#B9AACB] rounded-full"></div>
-                          <div className="h-[1.5px] flex-1 bg-gradient-to-l from-transparent via-[#B9AACB]/50 to-[#B9AACB]"></div>
+                          <div className="h-[1.5px] flex-1 bg-gradient-to-r from-transparent via-[#EBC1CB]/50 to-[#EBC1CB]"></div>
+                          <div className="w-1.5 h-1.5 bg-[#EBC1CB] rounded-full"></div>
+                          <div className="h-[1.5px] flex-1 bg-gradient-to-l from-transparent via-[#EBC1CB]/50 to-[#EBC1CB]"></div>
                         </div>
                       </div>
                     )}
@@ -636,13 +636,13 @@ export function Entourage() {
                   <div key={category}>
                     <div className="flex justify-center py-3 sm:py-4 md:py-5 mb-5 sm:mb-6 md:mb-8">
                       <div className="flex items-center gap-2 w-full max-w-md">
-                        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#B9AACB]/50 to-[#B9AACB]/70"></div>
+                        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#EBC1CB]/50 to-[#EBC1CB]/70"></div>
                         <div className="flex items-center gap-1.5">
-                          <div className="w-1 h-1 bg-[#B9AACB]/70 rounded-full" />
-                          <div className="w-1.5 h-1.5 bg-[#6A4F82]/90 rounded-full" />
-                          <div className="w-1 h-1 bg-[#B9AACB]/70 rounded-full" />
+                          <div className="w-1 h-1 bg-[#EBC1CB]/70 rounded-full" />
+                          <div className="w-1.5 h-1.5 bg-[#BC677C]/90 rounded-full" />
+                          <div className="w-1 h-1 bg-[#EBC1CB]/70 rounded-full" />
                         </div>
-                        <div className="h-px flex-1 bg-gradient-to-l from-transparent via-[#B9AACB]/50 to-[#B9AACB]/70"></div>
+                        <div className="h-px flex-1 bg-gradient-to-l from-transparent via-[#EBC1CB]/50 to-[#EBC1CB]/70"></div>
                       </div>
                     </div>
                     <TwoColumnLayout singleTitle={category} centerContent={true}>

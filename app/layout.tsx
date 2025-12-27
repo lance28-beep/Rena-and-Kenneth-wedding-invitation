@@ -7,8 +7,8 @@ import { siteConfig } from "@/content/site"
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://catherine-and-mark-invitation.netlify.app/"
 const canonicalUrl = siteUrl.replace(/\/$/, "")
-const desktopHero = "/Details/LinkPreviewNew2.jpg"
-const mobileHero = "/Details/LinkPreviewNew2.jpg"
+const desktopHero = "/Details/LinkPreview.jpg"
+const mobileHero = "/Details/LinkPreview.jpg"
 const eventImageUrl = `${canonicalUrl}${desktopHero}`
 
 const coupleNames = `${siteConfig.couple.groomNickname} & ${siteConfig.couple.brideNickname}`
@@ -151,7 +151,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   viewportFit: "cover",
   colorScheme: "light",
-  themeColor: "#D2A4A4",
+  themeColor: "#DFB46F",
 }
 
 export default function RootLayout({
@@ -164,7 +164,7 @@ export default function RootLayout({
       <head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="color-scheme" content="light" />
-        <meta name="theme-color" content="#D2A4A4" />
+        <meta name="theme-color" content="#DFB46F" />
         <meta name="format-detection" content="telephone=yes,email=no,address=no" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

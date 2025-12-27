@@ -45,7 +45,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Is there a dress code?",
     answer:
-      `Yes! We kindly request our guests to dress in formal attire matching our Purple & Sage motif. Please see the Attire section in Details for specific guidelines:\n\nPrincipal Sponsors:\n• Male: ${siteConfig.dressCode.sponsors.male}\n• Female: ${siteConfig.dressCode.sponsors.female}\n\nGuests:\n• Gents: ${siteConfig.dressCode.guests.gents}\n• Ladies: ${siteConfig.dressCode.guests.ladies}`,
+      `Yes! We kindly request our guests to dress in formal attire matching our Pink & Rose motif. Please see the Attire section in Details for specific guidelines:\n\nPrincipal Sponsors:\n• Male: ${siteConfig.dressCode.sponsors.male}\n• Female: ${siteConfig.dressCode.sponsors.female}\n\nGuests:\n• Gents: ${siteConfig.dressCode.guests.gents}\n• Ladies: ${siteConfig.dressCode.guests.ladies}`,
   },
   {
     question: "Will there be assigned seating?",
@@ -89,14 +89,28 @@ export function FAQ() {
   return (
     <Section
       id="faq"
-      className="relative py-12 md:py-16 lg:py-20 overflow-hidden bg-[#6A4F82]"
+      className="relative py-12 md:py-16 lg:py-20 overflow-hidden bg-[#BC677C]"
     >
-      {/* Background elements with purple & sage motif */}
+      {/* Background image and decorative overlays */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {/* Background image */}
+        <img
+          src="/Details/background.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
+        />
+        
         {/* Subtle gradient overlays */}
-        <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-[#6A4F82]/85 via-[#B9AACB]/60 to-transparent" />
-        <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#6A4F82]/90 via-[#B9AACB]/55 to-transparent" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(185,170,203,0.22),transparent_55%)] opacity-80" />
+        <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-[#BC677C]/85 via-[#E2AAAD]/60 to-transparent" />
+        <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#BC677C]/90 via-[#EBC1CB]/55 to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(188,103,124,0.22),transparent_55%)] opacity-80" />
+        
+        {/* Floating decorative circles with pink colors */}
+        <div className="absolute top-6 left-8 w-32 h-32 bg-[#EBC1CB]/26 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute top-16 right-12 w-24 h-24 bg-[#E2AAAD]/26 rounded-full blur-2xl animate-pulse-slow" style={{ animationDelay: "1s" }} />
+        <div className="absolute bottom-20 left-16 w-28 h-28 bg-[#FAEAEA]/22 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: "2s" }} />
+        <div className="absolute bottom-10 right-10 w-20 h-20 bg-[#EBC1CB]/26 rounded-full blur-2xl animate-pulse-slow" style={{ animationDelay: "0.5s" }} />
       </div>
 
       {/* Section Header */}
@@ -118,17 +132,17 @@ export function FAQ() {
 
         {/* Simple divider */}
         <div className="flex items-center justify-center gap-2 mt-3 sm:mt-4">
-          <div className="w-8 sm:w-12 md:w-16 h-px bg-gradient-to-r from-transparent via-white/60 to-transparent" />
-          <div className="w-1.5 h-1.5 bg-white rounded-full shadow-[0_0_12px_rgba(255,255,255,0.7)]" />
-          <div className="w-8 sm:w-12 md:w-16 h-px bg-gradient-to-l from-transparent via-white/60 to-transparent" />
+          <div className="w-8 sm:w-12 md:w-16 h-px bg-gradient-to-r from-transparent via-[#EBC1CB]/80 to-transparent" />
+          <div className="w-1.5 h-1.5 bg-[#EBC1CB] rounded-full shadow-[0_0_12px_rgba(235,193,203,0.7)]" />
+          <div className="w-8 sm:w-12 md:w-16 h-px bg-gradient-to-l from-transparent via-[#EBC1CB]/80 to-transparent" />
         </div>
       </div>
 
       {/* FAQ content */}
       <div className="relative z-30 max-w-4xl mx-auto px-3 sm:px-5">
         {/* Main card */}
-        <div className="relative bg-[#F4F4F4]/95 backdrop-blur-md border border-[#B9AACB]/60 rounded-lg sm:rounded-xl md:rounded-2xl shadow-[0_20px_60px_rgba(106,79,130,0.3)] overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#B9AACB]/10 via-transparent to-[#6A4F82]/5 pointer-events-none" />
+        <div className="relative bg-[#FAEAEA]/95 backdrop-blur-md border border-[#EBC1CB]/60 rounded-lg sm:rounded-xl md:rounded-2xl shadow-[0_20px_60px_rgba(188,103,124,0.3)] overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EBC1CB]/10 via-transparent to-[#BC677C]/5 pointer-events-none" />
           
           {/* FAQ items */}
           <div className="relative p-2.5 sm:p-4 md:p-5 lg:p-6">
@@ -139,20 +153,20 @@ export function FAQ() {
                 return (
                   <div
                     key={index}
-                    className="rounded-lg sm:rounded-xl border border-[#B9AACB]/40 bg-white/50 hover:border-[#6A4F82]/60 hover:bg-white/70 transition-all duration-300 overflow-hidden shadow-sm"
+                    className="rounded-lg sm:rounded-xl border border-[#EBC1CB]/40 bg-white/50 hover:border-[#BC677C]/60 hover:bg-white/70 transition-all duration-300 overflow-hidden shadow-sm"
                   >
                     <button
                       onClick={() => toggleItem(index)}
-                      className="group w-full px-2.5 sm:px-3 md:px-4 lg:px-5 py-2 sm:py-2.5 md:py-3 lg:py-4 flex items-center justify-between text-left outline-none focus-visible:ring-2 focus-visible:ring-[#6A4F82]/50 focus-visible:ring-offset-2 transition-colors"
+                      className="group w-full px-2.5 sm:px-3 md:px-4 lg:px-5 py-2 sm:py-2.5 md:py-3 lg:py-4 flex items-center justify-between text-left outline-none focus-visible:ring-2 focus-visible:ring-[#BC677C]/50 focus-visible:ring-offset-2 transition-colors"
                       aria-expanded={isOpen}
                       aria-controls={contentId}
                     >
-                      <span className={`${cormorant.className} font-semibold text-[#6A4F82] pr-2 sm:pr-3 md:pr-4 text-xs sm:text-sm md:text-base lg:text-lg leading-snug sm:leading-relaxed transition-colors duration-200 group-hover:text-[#5B6B3C]`}>
+                      <span className={`${cormorant.className} font-semibold text-[#BC677C] pr-2 sm:pr-3 md:pr-4 text-xs sm:text-sm md:text-base lg:text-lg leading-snug sm:leading-relaxed transition-colors duration-200 group-hover:text-[#E2AAAD]`}>
                         {item.question}
                       </span>
                       <ChevronDown
                         size={18}
-                        className={`text-[#6A4F82]/60 flex-shrink-0 transition-transform duration-300 ${isOpen ? "rotate-180 text-[#6A4F82]" : ""} w-4 h-4 sm:w-5 sm:h-5`}
+                        className={`text-[#BC677C]/60 flex-shrink-0 transition-transform duration-300 ${isOpen ? "rotate-180 text-[#BC677C]" : ""} w-4 h-4 sm:w-5 sm:h-5`}
                         aria-hidden
                       />
                     </button>
@@ -165,13 +179,13 @@ export function FAQ() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <div className="px-2.5 sm:px-3 md:px-4 lg:px-5 py-2 sm:py-2.5 md:py-3 lg:py-4 bg-white/30 border-t border-[#B9AACB]/40">
+                        <div className="px-2.5 sm:px-3 md:px-4 lg:px-5 py-2 sm:py-2.5 md:py-3 lg:py-4 bg-white/30 border-t border-[#EBC1CB]/40">
                           {item.answer.includes("[RSVP_LINK]") ? (
-                            <p className={`${cormorant.className} text-[#5B6B3C] font-medium leading-relaxed sm:leading-loose text-xs sm:text-sm md:text-base lg:text-lg whitespace-pre-line tracking-wide`}>
+                            <p className={`${cormorant.className} text-gray-700 font-medium leading-relaxed sm:leading-loose text-xs sm:text-sm md:text-base lg:text-lg whitespace-pre-line tracking-wide`}>
                               {item.answer.split("[RSVP_LINK]")[0]}
                               <a 
                                 href="#guest-list" 
-                                className="text-[#6A4F82] underline font-bold hover:text-[#B9AACB] transition-colors"
+                                className="text-[#BC677C] underline font-bold hover:text-[#E2AAAD] transition-colors"
                                 onClick={(e) => {
                                   e.preventDefault()
                                   document.getElementById('guest-list')?.scrollIntoView({ behavior: 'smooth' })
@@ -182,7 +196,7 @@ export function FAQ() {
                               {item.answer.split("[/RSVP_LINK]")[1]}
                             </p>
                           ) : (
-                            <p className={`${cormorant.className} text-[#5B6B3C] font-medium leading-relaxed sm:leading-loose text-xs sm:text-sm md:text-base lg:text-lg whitespace-pre-line tracking-wide`}>
+                            <p className={`${cormorant.className} text-gray-700 font-medium leading-relaxed sm:leading-loose text-xs sm:text-sm md:text-base lg:text-lg whitespace-pre-line tracking-wide`}>
                               {item.answer}
                             </p>
                           )}

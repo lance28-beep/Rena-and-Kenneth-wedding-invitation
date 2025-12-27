@@ -37,7 +37,7 @@ export function Registry() {
           With all that we have, we've been truly blessed. Your presence and prayers are all that we request. But if you were thinking of giving a gift to help us on our way, a monetary gift towards our beginning would really make our day. However, if you prefer to purchase a gift, feel free to surprise us in your own way.
         </p>
         
-        <div className="flex items-center justify-center gap-2 mt-3 sm:mt-4">
+        {/* <div className="flex items-center justify-center gap-2 mt-3 sm:mt-4">
           <div className="w-1.5 h-1.5 bg-white/80 rounded-full" />
           <div className="w-1.5 h-1.5 bg-white/60 rounded-full" />
           <div className="w-1.5 h-1.5 bg-white/80 rounded-full" />
@@ -69,7 +69,7 @@ export function Registry() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-6 sm:mt-8 text-center">
           <p className="text-xs sm:text-sm text-white/90 italic">
