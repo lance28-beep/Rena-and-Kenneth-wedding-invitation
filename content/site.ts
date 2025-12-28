@@ -24,8 +24,8 @@ export const siteConfig = {
     date: "January 08, 2026",
     day: "Thursday",
     time: "8:00 AM",
-    entourageTime: "2:30 PM",
-    guestsTime: "2:30 PM",
+    entourageTime: "7:00 AM",
+    guestsTime: "7:30 AM",
   },
   reception: {
     location: "Rhose Garden Resort and Events Place, Parang Road., Paradise Drive, Brgy. Tungkong Mangga, San Jose Del Monte, Philippines",

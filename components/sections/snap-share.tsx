@@ -398,7 +398,7 @@ export function SnapShare() {
           <div className="bg-white/10 rounded-xl sm:rounded-[22px] p-4 sm:p-6 md:p-7 shadow-[0_25px_80px_rgba(0,0,0,0.35)] border border-white/20 max-w-3xl mx-auto backdrop-blur-xl">
             <p className={`${cormorant.className} text-white text-sm sm:text-base md:text-lg leading-relaxed mb-3 sm:mb-4 px-2`}>
               Thank you for helping make {groomNickname} & {brideNickname}'s wedding celebration memorable. Your photos and messages create beautiful memories
-              that will last a lifetime—keep sharing the joy throughout the evening.
+              that will last a lifetime—keep sharing the joy throughout the morning.
             </p>
             <div className={`${cormorant.className} flex items-center justify-center gap-2 text-white text-xs sm:text-sm tracking-[0.25em] sm:tracking-[0.32em] uppercase`}>
               <span>See you in the celebration</span>
