@@ -282,7 +282,7 @@ export function Details() {
                   <h5 className="font-semibold text-xs sm:text-sm text-gray-800 mb-2">Wedding Guests</h5>
                   <div className="relative w-full aspect-[4/3] sm:aspect-[5/3] rounded-xl overflow-hidden border border-[#EBC1CB] bg-[#FAEAEA] mb-3">
                     <Image
-                      src="/Details/guestAttirenewone.png"
+                      src="/Details/guestattire.png"
                       alt="Guest attire guideline"
                       fill
                       className="object-contain"
