@@ -69,7 +69,7 @@ export function Details() {
 
   // Palettes (used only for color chips in attire card) - Old Rose & Beige motif
   const sponsorPalette = ["#C08081", "#D2B48C"]
-  const guestPalette = [ "#E2AAAD", "#EBC1CB", "#FAEAEA", "#D2B48C"]
+  const guestPalette = [ "#FF1494", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#D2B48C"]
   const secondaryPalette = ["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#D2B48C"]
 
   const openInMaps = (link: string) => {
@@ -282,7 +282,7 @@ export function Details() {
                   <h5 className="font-semibold text-xs sm:text-sm text-gray-800 mb-2">Wedding Guests</h5>
                   <div className="relative w-full aspect-[4/3] sm:aspect-[5/3] rounded-xl overflow-hidden border border-[#EBC1CB] bg-[#FAEAEA] mb-3">
                     <Image
-                      src="/Details/guestattire.png"
+                      src="/Details/Gemini_Generated_Image_92omej92omej92om-removebg-preview.png"
                       alt="Guest attire guideline"
                       fill
                       className="object-contain"
