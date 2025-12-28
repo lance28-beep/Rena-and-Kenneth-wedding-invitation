@@ -144,7 +144,7 @@ export function PrincipalSponsors() {
           <div className="absolute top-6 left-8 w-32 h-32 bg-[#EBC1CB]/26 rounded-full blur-3xl animate-pulse-slow" />
           <div className="absolute top-16 right-12 w-24 h-24 bg-[#E2AAAD]/26 rounded-full blur-2xl animate-pulse-slow" style={{ animationDelay: "1s" }} />
           <div className="absolute bottom-20 left-16 w-28 h-28 bg-[#FAEAEA]/22 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: "2s" }} />
-          <div className="absolute bottom-10 right-10 w-20 h-20 bg-[#DFB46F]/26 rounded-full blur-2xl animate-pulse-slow" style={{ animationDelay: "0.5s" }} />
+          <div className="absolute bottom-10 right-10 w-20 h-20 bg-[#D2B48C]/26 rounded-full blur-2xl animate-pulse-slow" style={{ animationDelay: "0.5s" }} />
         </div>
         {/* Readability overlay */}
         <div className="absolute inset-0 bg-black/35 backdrop-blur-[1px]" />

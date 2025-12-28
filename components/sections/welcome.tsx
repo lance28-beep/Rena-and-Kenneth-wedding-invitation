@@ -71,7 +71,7 @@ export function Welcome() {
             {/* Divider */}
             <div className="flex items-center justify-center gap-2 pt-1">
               <span className="h-px w-10 sm:w-16 md:w-20 bg-[#F3C0BF]/40" />
-              <span className="w-1.5 h-1.5 rounded-full bg-[#DFB46F] shadow-[0_0_14px_rgba(223,180,111,0.8)]" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#D2B48C] shadow-[0_0_14px_rgba(210,180,140,0.8)]" />
               <span className="h-px w-10 sm:w-16 md:w-20 bg-[#F3C0BF]/40" />
             </div>
           </div>

@@ -7,7 +7,7 @@ export const siteConfig = {
   },
   wedding: {
     date: "January 08, 2026",
-    time: "3:00 PM",
+    time: "8:00 AM",
     venue: "Rhose Garden Resort and Events Place",
     tagline: "are getting married!",
     theme: "Purple & Sage Motif",
@@ -23,7 +23,7 @@ export const siteConfig = {
     venue: "Rhose Garden Resort and Events Place",
     date: "January 08, 2026",
     day: "Thursday",
-    time: "3:00 PM",
+    time: "8:00 AM",
     entourageTime: "2:30 PM",
     guestsTime: "2:30 PM",
   },
@@ -37,8 +37,8 @@ export const siteConfig = {
     theme: "Purple & Sage Motif",
     colors: ["#6A4F82", "#B9AACB", "#A8AF8D", "#F4F4F4", "#5B6B3C"],
     sponsors: {
-      male: "Barong, Black Pants and Leather Shoes",
-      female: "Pink/Rose/Blush Long Gown"
+      male: "beige barong",
+      female: "old rose long gown"
     },
     guests: {
       gents: "Polo & Pants (Strictly no Tshirt)",

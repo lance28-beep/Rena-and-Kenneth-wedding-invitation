@@ -17,7 +17,7 @@ interface Particle {
 }
 
 // Pink color palette
-const PINK_COLORS = ['#BC677C', '#E2AAAD', '#EBC1CB', '#FAEAEA', '#FFFFFF', '#DFB46F'];
+const PINK_COLORS = ['#BC677C', '#E2AAAD', '#EBC1CB', '#FAEAEA', '#FFFFFF', '#D2B48C'];
 
 export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
   const [fadeOut, setFadeOut] = useState(false);
@@ -91,7 +91,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,#EBC1CB_0%,transparent_50%)] opacity-60 animate-pulse" style={{ animationDuration: '4s' }} />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_70%,#E2AAAD_0%,transparent_50%)] opacity-50 animate-pulse" style={{ animationDuration: '5s', animationDelay: '1s' }} />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#FAEAEA_0%,transparent_60%)] opacity-40 animate-pulse" style={{ animationDuration: '6s', animationDelay: '2s' }} />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_30%,#DFB46F_0%,transparent_40%)] opacity-30 animate-pulse" style={{ animationDuration: '7s', animationDelay: '0.5s' }} />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_30%,#D2B48C_0%,transparent_40%)] opacity-30 animate-pulse" style={{ animationDuration: '7s', animationDelay: '0.5s' }} />
         
         {/* Vignette effect */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(188,103,124,0.2)_100%)]" />
@@ -127,7 +127,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       <div className="hidden sm:block absolute top-20 left-1/4 w-2 h-2 bg-[#FAEAEA]/40 rounded-full animate-ping" style={{ animationDuration: '3s' }} />
       <div className="hidden sm:block absolute top-1/3 right-1/4 w-1.5 h-1.5 bg-[#EBC1CB]/50 rounded-full animate-ping" style={{ animationDuration: '4s', animationDelay: '1s' }} />
       <div className="hidden sm:block absolute bottom-1/3 left-1/3 w-2.5 h-2.5 bg-[#E2AAAD]/40 rounded-full animate-ping" style={{ animationDuration: '5s', animationDelay: '2s' }} />
-      <div className="hidden sm:block absolute top-1/2 right-1/3 w-2 h-2 bg-[#DFB46F]/30 rounded-full animate-ping" style={{ animationDuration: '4.5s', animationDelay: '1.5s' }} />
+      <div className="hidden sm:block absolute top-1/2 right-1/3 w-2 h-2 bg-[#D2B48C]/30 rounded-full animate-ping" style={{ animationDuration: '4.5s', animationDelay: '1.5s' }} />
 
       <div className="relative flex flex-col items-center justify-center px-4 sm:px-8">
         {/* Main content container with elegant frame */}
@@ -147,7 +147,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             </div>
             <div className="absolute w-28 sm:w-40 h-28 sm:h-40 rounded-full border-t-2 border-b-2 border-[#BC677C]/50 animate-[spin_20s_linear_infinite_reverse]" />
             <div className="hidden sm:block absolute w-36 h-36 rounded-full border border-dashed border-[#FAEAEA]/20 animate-[spin_25s_linear_infinite]" />
-            <div className="hidden sm:block absolute w-24 h-24 rounded-full border border-[#DFB46F]/30 animate-[spin_12s_linear_infinite_reverse]" />
+            <div className="hidden sm:block absolute w-24 h-24 rounded-full border border-[#D2B48C]/30 animate-[spin_12s_linear_infinite_reverse]" />
 
             {/* Inner glow with pink */}
             <div className="absolute w-24 sm:w-32 h-24 sm:h-32 rounded-full bg-[#EBC1CB]/20 blur-2xl" />

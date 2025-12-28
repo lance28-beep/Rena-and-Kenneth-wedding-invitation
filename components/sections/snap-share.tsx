@@ -27,9 +27,8 @@ export function SnapShare() {
   const sanitizedGroomName = groomNickname.replace(/\s+/g, "")
   const sanitizedBrideName = brideNickname.replace(/\s+/g, "")
   const hashtags = [
-    `#${sanitizedGroomName}And${sanitizedBrideName}Wedding`,
-    `#${sanitizedGroomName}And${sanitizedBrideName}2026`,
-    `#${sanitizedGroomName}${sanitizedBrideName}Forever`
+    "#IKENNETHLiveWithoutRENA",
+    "#RENAfoundTheKeytoKENN"
   ]
   const allHashtagsText = hashtags.join(" ")
 

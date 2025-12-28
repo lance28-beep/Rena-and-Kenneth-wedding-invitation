@@ -19,7 +19,7 @@ interface Particle {
 }
 
 // Pink color palette
-const PINK_COLORS = ['#BC677C', '#E2AAAD', '#EBC1CB', '#FAEAEA', '#FFFFFF', '#DFB46F'];
+const PINK_COLORS = ['#BC677C', '#E2AAAD', '#EBC1CB', '#FAEAEA', '#FFFFFF', '#D2B48C'];
 
 const desktopImages: string[] = [
   ' /desktop-background/couple (1).JPG',

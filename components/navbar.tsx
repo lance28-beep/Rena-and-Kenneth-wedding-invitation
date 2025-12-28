@@ -161,7 +161,7 @@ export function Navbar() {
                 menuButtonColor="#FAEAEA"
                 openMenuButtonColor="#BC677C"
                 changeMenuColorOnOpen={true}
-                colors={["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#DFB46F"]}
+                colors={["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#D2B48C"]}
                 accentColor="#EBC1CB"
                 isFixed={true}
                 onMenuOpen={() => {}}

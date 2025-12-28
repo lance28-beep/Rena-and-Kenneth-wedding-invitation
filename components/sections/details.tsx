@@ -67,10 +67,10 @@ export function Details() {
   const ceremonyMapsLink = `https://maps.google.com/?q=${encodeURIComponent(siteConfig.ceremony.location)}`
   const receptionMapsLink = `https://maps.google.com/?q=${encodeURIComponent(siteConfig.reception.location)}`
 
-  // Palettes (used only for color chips in attire card) - Pink & Gold motif
-  const sponsorPalette = ["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#FFFFFF", "#DFB46F"]
-  const guestPalette = ["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#FFFFFF", "#DFB46F"]
-  const secondaryPalette = ["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#FFFFFF", "#DFB46F"]
+  // Palettes (used only for color chips in attire card) - Old Rose & Beige motif
+  const sponsorPalette = ["#C08081", "#D2B48C"]
+  const guestPalette = [ "#E2AAAD", "#EBC1CB", "#FAEAEA", "#D2B48C"]
+  const secondaryPalette = ["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#D2B48C"]
 
   const openInMaps = (link: string) => {
     window.open(link, "_blank", "noopener,noreferrer")
@@ -85,7 +85,7 @@ export function Details() {
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Subtle gradient overlays */}
         <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-[#BC677C]/85 via-[#E2AAAD]/60 to-transparent" />
-        <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#EBC1CB]/90 via-[#DFB46F]/55 to-transparent" />
+        <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#EBC1CB]/90 via-[#D2B48C]/55 to-transparent" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(188,103,124,0.22),transparent_55%)] opacity-80" />
       </div>
 
@@ -132,7 +132,7 @@ export function Details() {
               sizes="100vw"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#BC677C]/95 via-[#DFB46F]/65 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#BC677C]/95 via-[#D2B48C]/65 to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-end px-2 sm:px-6 pb-2 sm:pb-6 text-white">
               <h3 className="style-script-regular text-xl sm:text-4xl md:text-5xl font-normal leading-tight drop-shadow-lg">
                 {siteConfig.ceremony.venue}
@@ -148,7 +148,7 @@ export function Details() {
             {/* Single Date Display */}
             {/* <div className="text-center mb-3 sm:mb-4">
               <div className="rounded-md border border-[#EBC1CB] bg-white/80 px-3 sm:px-4 py-2.5 sm:py-3 shadow-sm inline-block">
-                <p className="text-[9px] sm:text-[10px] font-semibold tracking-[0.18em] text-[#DFB46F] uppercase mb-1">
+                <p className="text-[9px] sm:text-[10px] font-semibold tracking-[0.18em] text-[#D2B48C] uppercase mb-1">
                   Date
                 </p>
                 <p className="text-base sm:text-lg md:text-xl font-bold text-gray-800">{siteConfig.ceremony.date}</p>
@@ -282,7 +282,7 @@ export function Details() {
                   <h5 className="font-semibold text-xs sm:text-sm text-gray-800 mb-2">Wedding Guests</h5>
                   <div className="relative w-full aspect-[4/3] sm:aspect-[5/3] rounded-xl overflow-hidden border border-[#EBC1CB] bg-[#FAEAEA] mb-3">
                     <Image
-                      src="/Details/guest attire.png"
+                      src="/Details/guestAttirenewone.png"
                       alt="Guest attire guideline"
                       fill
                       className="object-contain"

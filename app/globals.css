@@ -10,8 +10,8 @@
   --card-foreground: oklch(0.12 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.12 0 0);
-  /* Primary: Gold #DFB46F */
-  --primary: #DFB46F;
+  /* Primary: Beige #D2B48C */
+  --primary: #D2B48C;
   --primary-foreground: oklch(0.12 0 0);
   /* Secondary: Pink #F3C0BF */
   --secondary: #F3C0BF;
@@ -28,7 +28,7 @@
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.85 0.01 15);
   --input: oklch(0.9 0.01 15);
-  --ring: #DFB46F;
+  --ring: #D2B48C;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -37,12 +37,12 @@
   --radius: 0.625rem;
   --sidebar: #FEE4E3;
   --sidebar-foreground: oklch(0.12 0 0);
-  --sidebar-primary: #DFB46F;
+  --sidebar-primary: #D2B48C;
   --sidebar-primary-foreground: oklch(0.12 0 0);
   --sidebar-accent: #F3C0BF;
   --sidebar-accent-foreground: oklch(0.12 0 0);
   --sidebar-border: oklch(0.85 0.01 15);
-  --sidebar-ring: #DFB46F;
+  --sidebar-ring: #D2B48C;
 }
 
 .dark {
@@ -52,7 +52,7 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: #DFB46F;
+  --primary: #D2B48C;
   --primary-foreground: oklch(0.12 0 0);
   --secondary: #F3C0BF;
   --secondary-foreground: oklch(0.12 0 0);
@@ -66,7 +66,7 @@
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: oklch(0.269 0 0);
   --input: oklch(0.269 0 0);
-  --ring: #DFB46F;
+  --ring: #D2B48C;
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
@@ -74,12 +74,12 @@
   --chart-5: oklch(0.645 0.246 16.439);
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: #DFB46F;
+  --sidebar-primary: #D2B48C;
   --sidebar-primary-foreground: oklch(0.12 0 0);
   --sidebar-accent: #F3C0BF;
   --sidebar-accent-foreground: oklch(0.12 0 0);
   --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: #DFB46F;
+  --sidebar-ring: #D2B48C;
 }
 
 @theme inline {
@@ -163,14 +163,14 @@ html {
   background: #FEE4E3;
 }
 
-/* Updated scrollbar color to match Pink + Gold theme */
+/* Updated scrollbar color to match Pink + Beige theme */
 ::-webkit-scrollbar-thumb {
   background: #F3C0BF;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #DFB46F;
+  background: #D2B48C;
 }
 
 /* Shimmer animation for countdown cards */
@@ -253,9 +253,9 @@ html {
   font-style: normal;
 }
 
-/* Countdown gradient text - Gold theme */
+/* Countdown gradient text - Beige theme */
 .countdown-gradient-text * {
-  background: linear-gradient(180deg, #DFB46F 0%, #C99F5A 100%);
+  background: linear-gradient(180deg, #D2B48C 0%, #C99F5A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
